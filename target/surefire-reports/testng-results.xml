@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-09T22:12:44 EDT" name="Dell_Search" finished-at="2022-05-09T22:12:58 EDT" duration-ms="14792">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:extentReport.testRunner.TestRunner@402bba4f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-09T22:12:44 EDT" name="Search_Box" finished-at="2022-05-09T22:12:58 EDT" duration-ms="14792">
+      <class name="extentReport.testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:extentReport.testRunner.TestRunner@402bba4f]" started-at="2022-05-09T22:12:44 EDT" name="setUpClass" finished-at="2022-05-09T22:12:44 EDT" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75699e35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:extentReport.testRunner.TestRunner@402bba4f]" started-at="2022-05-09T22:12:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-09T22:12:51 EDT" duration-ms="6726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["dell homepage Serach functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:extentReport.testRunner.TestRunner@402bba4f]" started-at="2022-05-09T22:12:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-09T22:12:56 EDT" duration-ms="5271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["dell homepage Serach functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:extentReport.testRunner.TestRunner@402bba4f]" started-at="2022-05-09T22:12:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-09T22:12:58 EDT" duration-ms="2192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user visits contact page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["dell homepage Serach functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:extentReport.testRunner.TestRunner@402bba4f]" started-at="2022-05-09T22:12:58 EDT" name="tearDownClass" finished-at="2022-05-09T22:12:58 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- extentReport.testRunner.TestRunner -->
+    </test> <!-- Search_Box -->
+  </suite> <!-- Dell_Search -->
+</testng-results>
